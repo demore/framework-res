@@ -1,0 +1,9 @@
+LinearLayout android:layout_gravity="center" android:orientation="horizontal">
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:ellipsize="marquee" android:id="@id/alarm_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/status1" android:singleLine="true" android:drawablePadding="4.0dip" />
+        <Space android:layout_gravity="fill" />
+        <Button android:layout_gravity="right" android:id="@id/emergencyCallButton" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/lockscreen_emergency_button" android:drawablePadding="4.0dip" style="?android:attr/buttonBarButtonStyle" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:weightSum="2.0" style="?android:attr/buttonBarStyle" />
+    </GridLayout>
+</RelativeLayout>
